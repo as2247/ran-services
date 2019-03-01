@@ -4,6 +4,10 @@
     text-align: left;
 }
 
+h1{
+    text-align: center;
+}
+
 .navigation-bar {
     background-color: #800000;
     color: #ffffff;
@@ -24,3 +28,49 @@
     font-weight: bold;
     }
 
+.services{
+    background-color: #dcdcdc;
+    float: left;
+    position: absolute;
+    width: 25%;
+    margin:20px;
+    padding: 20px;              
+}
+
+.head{
+    background-color: #DC9202;
+    float: right;
+    width: 65%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.body{
+    background-image: url("House.png");
+    float: right;
+    position: absolute;
+    width: 60%;
+    height: 62%;
+    margin:20px;
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background: #dcdcdc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.about{
+    position: fixed;
+    width:99%;
+    text-align: left;
+    background: #dcdcdc;
+    padding: 20px;
+    margin-top: 20px;
+}
